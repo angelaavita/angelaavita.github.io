@@ -1,0 +1,150 @@
+body {
+  background-color: #e74a3bab !important;
+}
+
+.bg-hitam {
+  background-color: #222 !important;
+}
+
+.radius-20 {
+  border-radius: 20px;
+}
+
+.radius-50 {
+  border-radius: 50px;
+}
+
+.img-foto {
+  display: block;
+  position: relative;
+  width: 100%;
+  padding-bottom: calc(100% - 36px);
+  border-radius: 1000px;
+  overflow: hidden;
+  background-color: #444;
+  border: 18px solid #444;
+  -webkit-box-shadow: 0 0 25px 0 rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 0 25px 0 rgba(0, 0, 0, .8);
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, .8);
+}
+
+.img-bg {
+  background-image: url('img/foto/lisa.jpg');
+  background-position: calc(50% + 1.17052px) calc(50% + 6.91042px);
+  background-color: bisque;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  display: block;
+  position: absolute;
+  top: -18px;
+  bottom: -18px;
+  width: auto;
+  left: -18px;
+  right: -18px;
+}
+
+.sec-1 {
+  margin-top: 5% !important;
+  margin-bottom: 5% !important;
+}
+
+.info {
+  position: relative;
+  text-align: left;
+  width: 100%;
+  display: table;
+  margin: 0;
+  padding: 0 10px 30px 0;
+}
+
+.info .icon-cs {
+  position: relative;
+  display: table-cell;
+  padding: 0 10px 5px 0;
+  width: 44px;
+}
+
+.info i {
+  position: relative;
+  display: table-cell;
+  font-size: 33px;
+  color: #e74a3b;
+}
+
+.info .info-text {
+  position: relative;
+  color: white;
+  display: table-cell;
+  padding: 0 0 0 15px;
+  vertical-align: middle;
+}
+
+.border-bot {
+  border-bottom: 1px solid #e74a3b;
+}
+
+.card-cs {
+  width: 250px;
+  height: 20vh;
+  border: 2px solid #444;
+  background-color: #333;
+  border-radius: 20px;
+}
+
+/* slider-js  */
+.swiper-container {
+  width: 100%;
+  height: 300px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+
+}
+
+/* end-slider js */
+
+.foot {
+  display: block;
+  position: relative;
+  text-align: text-center;
+  top: 20px;
+  padding: 15px 45px;
+  background-color: #252525;
+  border-top: 2px solid #333;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.medsos {
+  width: 200px;
+  text-align: center;
+  padding: 20px;
+  color: #383636;
+  border-radius: 20px;
+  border: 2px solid #333;
+}
+
+.medsos i {
+  font-size: 100px;
+  transition: all 0.5s ease;
+
+  -webkit-transition: all 0.5s ease;
+
+  -o-transition: all 0.5s ease;
+
+  -ms-transition: all 0.5s ease;
+
+  -moz-transition: all 0.5s ease;
+}
+
+.medsos:hover {
+  color: #e74a3b;
+  border: 2px solid #e74a3b;
+}
